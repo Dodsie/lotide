@@ -5,9 +5,12 @@ const assertEqual = function(actual, expected) {
     console.log(`❌❌❌Assertion Failed: ${actual} !== ${expected}!`);
   }
 };
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual("Bailey", "Bailey");
-assertEqual("Not-Identical", "Identical");
-assertEqual(25, 25);
-assertEqual(100,50);
+
+const head = function(array){
+  let value = array[0];
+  return value
+}; 
+assertEqual(head([5,6,7]), 5);
+assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+console.log(head([1]));
+console.log(head([]));
