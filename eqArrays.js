@@ -13,17 +13,12 @@ const eqArrays = function(arrayOne,arrayTwo) {
   let stringArrTwo = '';
   for (let i = 0; i < arrayOne.length; i++) {
     stringArrOne = arrayOne[i];
-    console.log(stringArrOne);
   }
   for (let j = 0; j < arrayTwo.length; j++) {
     stringArrTwo = arrayTwo[j];
-    console.log(stringArrTwo);
   }
   if (stringArrOne === stringArrTwo && lengthArrOne === lengthArrTwo) {
-    console.log(true);
     return true;
-  } else {
-    console.log(false);
   }
 };
 
