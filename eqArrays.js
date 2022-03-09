@@ -7,26 +7,24 @@ const assertEqual = function(actual, expected) {
 };
  
 const eqArrays = function(arrayOne,arrayTwo) {
-  lengthArrOne = arrayOne.length;
-  lengthArrTwo = arrayTwo.length;
-  let stringArrOne = '' 
-  let stringArrTwo = ''
-  //console.log(stringArrOne);
-  //console.log(stringArrTwo);
-  //console.log(lengthArrOne);
-  //console.log(lengthArrTwo);
+  let lengthArrOne = arrayOne.length;
+  let lengthArrTwo = arrayTwo.length;
+  let stringArrOne = '';
+  let stringArrTwo = '';
   for (let i = 0; i < arrayOne.length; i++) {
-    stringArrOne = arrayOne[i]
-    console.log(stringArrOne)
+    stringArrOne = arrayOne[i];
+    console.log(stringArrOne);
   }
   for (let j = 0; j < arrayTwo.length; j++) {
-    stringArrTwo = arrayTwo[j]
+    stringArrTwo = arrayTwo[j];
     console.log(stringArrTwo);
   }
   if (stringArrOne === stringArrTwo && lengthArrOne === lengthArrTwo) {
-    console.log(true)
+    console.log(true);
     return true;
-  } else {console.log(false)};
+  } else {
+    console.log(false);
+  }
 };
 
 
