@@ -1,9 +1,5 @@
 const eqArrays = require('./eqArrays');
-
-
-
 const assertArrayEqual = require('./assertArrayEqual');
-
 
 const letterPositions = function(sentence) {
   let results = {};
