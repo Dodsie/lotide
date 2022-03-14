@@ -42,9 +42,6 @@ const assertObjectsEqual = function(actual, expected) {
     return `✅✅✅Assertion Passed: ${inspect(actual)} === ${inspect(expected)}!`;
   }
 };
-// console.log(assertObjectsEqual(person,personDuplicate));
-// console.log(assertObjectsEqual(person,person2Duplicate));
-// console.log(assertObjectsEqual(person2,personDuplicate));
 
 
 module.exports = assertObjectsEqual;
