@@ -10,12 +10,12 @@ const takeUntil = function(array,callback) {
     }
   } return newArr;
 };
-
-const results1 = takeUntil(data1, x => x < -2);
-console.log(results1);
-const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
-const results2 = takeUntil(data2, x => x === ',');
-console.log(results2);
+module.exports = takeUntil;
+// const results1 = takeUntil(data1, x => x < -2);
+// console.log(results1);
+// const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
+// const results2 = takeUntil(data2, x => x === ',');
+// console.log(results2);
 
 
 

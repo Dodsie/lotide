@@ -29,10 +29,11 @@ const without = function(source, itemsToRemove) {
   return newArray;
 };
 //try with filter
-let test1 = ['b', 'd', 1];
-let test2 = ['b', 'd', 1];
-let test3 = ['g', 'g', 1];
-assertArrayEqual(without([1, 2, 3], [1]), [2, 3]);
-assertArrayEqual(without([1, 2, 3], [1]), [2, 3]);
-assertArrayEqual(without(test2, test1), []);
-assertArrayEqual(without(test2, test2), []);
+// let test1 = ['b', 'd', 1];
+// let test2 = ['b', 'd', 1];
+// let test3 = ['g', 'g', 1];
+// assertArrayEqual(without([1, 2, 3], [1]), [2, 3]);
+// assertArrayEqual(without([1, 2, 3], [1]), [2, 3]);
+// assertArrayEqual(without(test2, test1), []);
+// assertArrayEqual(without(test2, test2), []);
+module.exports = without;
